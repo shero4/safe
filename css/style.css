@@ -1,0 +1,99 @@
+html {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800; 
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0; 
+}
+.navbar {
+    background-color: #792d8f;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+  }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding: .7vw 5vw 0vw 5vw;
+  }
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul a:hover {
+    transition: 0.2s;
+}
+
+video {
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+#main {
+    background-color: #792d8f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2390268e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23a61e8e' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23bd178d' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23d30f8d' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23ea088c' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    padding-top: 8vw;
+}
+.pink {
+    background: #ea088c;
+    color: #fff;
+}
+footer {
+    font-size: 1.2rem;
+    padding: 2rem 0;
+    line-height: 2rem;
+    background: #ea088c;
+    color: #f7f7f7;
+    text-align: center;   
+}
+
+.pad {
+    padding: 8vw;
+}
+.minipad {
+    padding: 2vw 2vw 2vw 0;
+}
+.button {
+    border-radius: 100px;
+}
+
+.tex {
+    height: 50%;
+}
+
+.phones {
+    position: relative;
+}
+.phone {
+    position: relative;
+    max-width: 80%;
+}
+  .phone + .phone {
+    display: none;
+}
+
+#members img {
+    border-radius: 50%;
+    width: 15vw;
+}
+#members p {
+    margin-top: -1.2vw;
+}
