@@ -102,6 +102,10 @@ footer {
 #main img {
     display: none;
 }
+
+#main p {
+    color: #fff;
+}
 @media (min-width: 550px) {
     #main img {
         display: block;
