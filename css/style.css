@@ -116,6 +116,22 @@ footer {
         padding-top: 30vw;
         padding-bottom: 30vw;
     }
+    #mockup {
+        display: none;
+    }
+    #members img {
+        width: 25vw;
+    }
+    .four {
+        text-align: center;
+    }
+    .three {
+        text-align: center;
+    }
+}
+
+.momos {
+    display: none;
 }
 
 .vertical-center {
